@@ -1,2 +1,1 @@
-# Intro-to-Web-Design
-Homework for Intro to Web Design
+# Bridger Holling Burkes
