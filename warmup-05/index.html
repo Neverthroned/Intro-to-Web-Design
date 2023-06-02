@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Warmup-05</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div id="header" class="container">
+      <h1>Music Villa</h1>
+    </div>
+    <!-- address -->
+    <div id="address" class="container">
+      <address>
+        Contact <a href="mailto:info@musicvilla.com">Music Villa</a>.<br>
+        Located at 539 E. Main, Bozeman, MT<br>
+        (406) 587-4761
+      </address>
+    </div>
+    <br>
+    <!-- table -->
+    <div id="table" class="container">
+      <table>
+        <tr>
+          <th></th>
+          <th scope="col">Monday-Saturday</th>
+          <th scope="col">Sunday</th>
+        </tr>
+        <tr>
+          <th scope="row">Hours</th>
+          <td>10am-6pm</td>
+          <td>12pm-5pm</td>
+        </tr>
+      </table>
+    </div>
+    <br>
+    <!-- form -->
+    <div id="form" class="container">
+      <form action="#" method="" id="question-form" class="basic-forms">
+        <!-- text input -->
+        <p>
+          Name:
+          <input type="text" name="name" id="name" />
+        </p>
+        <!-- radio input -->
+        <p>Have You Been Here Before?</p>
+        <input type="radio" name="yesorno" value="yes" /> Yes
+        <input type="radio" name="yesorno" value="no" /> No
+        <!-- text area -->
+        <p>
+          Comments or Concerns?
+          <br>
+          <textarea name="comments" id="textarea" placeholder="Enter up to 500 characters..." maxlength="500" cols="20" rows="4"></textarea>
+        </p>
+        <input type="submit" name="sumbit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
