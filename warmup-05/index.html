@@ -37,20 +37,20 @@
     <div id="form" class="container">
       <form action="http://www.example.com/subscribe.php" method="post" id="question-form" class="basic-forms">
         <!-- text input -->
-        <p>
+        <label>
           Name:
           <input type="text" name="name" id="name" />
-        </p>
+        </label>
         <!-- radio input -->
-        <p>Have You Been Here Before?</p>
+        <label>Have You Been Here Before?</label>
         <input type="radio" name="yesorno" value="yes" /> Yes
         <input type="radio" name="yesorno" value="no" /> No
         <!-- text area -->
-        <p>
+        <label>
           Comments or Concerns?
           <br>
           <textarea name="comments" id="textarea" placeholder="Enter up to 500 characters..." maxlength="500" cols="20" rows="4"></textarea>
-        </p>
+        </label>
         <input type="submit" name="sumbit" value="Submit" />
       </form>
     </div>
