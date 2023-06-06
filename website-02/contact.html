@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+      background-color: lightgray;
+      text-align: center;
+      }
+      ul {
+        background-color: gray;
+        text-align: center;
+        padding: 10px;
+        width: 75%;
+        margin: auto;
+      }
+      li {
+        display: inline;
+        padding: 5px;
+      }
+    </style>
+    <title>Contact</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <!-- nav stuff -->
+    <nav id="main">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+    </nav>
+    <!-- form stuff -->
+    <form action="welcome.php" method="post">
+      Are you able to name another chess opening: <input type="text" name="quiz">
+      <br>
+      <label>Did you like my website?</label>
+      <!-- no linking, so I guess there will be a broken link -->
+      <br>
+      <input type="radio" name="yesorno" value="yes" /> Yes
+      <input type="radio" name="yesorno" value="no" /> No
+      <input type="submit">
+    </form>
+    <p><i>(broken link)</i></p>
+  </body>
+</html>
