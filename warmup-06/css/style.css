@@ -1,0 +1,34 @@
+body {
+  /* remember background image syntax... */
+  background-image: url("background.jpg");
+  background-color: rgb(255, 255, 255);
+  background-attachment: fixed;
+  font-family: Arial;
+}
+p {
+  background-color: lightgray;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+}
+.table {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+.header {
+  text-align: center;
+}
+.header>p {
+  color: rgba(237, 93, 30, 255);
+  padding: 10px;
+  /* really liked this piece of code, figured it out online, pretty much outlines text by using shadows in four directions,
+  not sure if it'll work for everyone, but it works for me right now */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  background-color: transparent;
+  width: 100%;
+}
+.header>h1 {
+  font-family: impact;
+}
