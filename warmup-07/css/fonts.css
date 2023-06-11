@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Merriweather';
+  src: url('../fonts/Merriweather-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'MerriweatherSans';
+  src: url('../fonts/MerriweatherSans-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Arizonia';
+  src: url('../fonts/Arizonia-Regular.ttf') format('opentype');
+  font-weight: 0;
+  font-style: normal;
+}

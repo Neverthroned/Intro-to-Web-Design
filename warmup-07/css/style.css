@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(0, 102, 102);
+}
+.header {
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+.header>h1 {
+  font-family: 'Arizonia', Georgia;
+  font-size: 82px;
+  line-height: 0.75em;
+  font-kerning: none;
+}
+.book {
+  width: 85%;
+  text-align: left;
+  margin: auto;
+  background-color: white;
+  padding: 15px;
+  outline-style: solid;
+}
+.book>p {
+  font-family: 'MerriweatherSans', 'Merriweather', Georgia;
+  font-weight: 500;
+  font-size: 24px;
+}
+b.styled {
+  font-family: 'Arizonia', Arial;
+  font-size: 50px;
+  font-weight: 900;
+  font-kerning: none;
+  letter-spacing: 0.15em;
+  line-height: 0.75em;
+  color: rgb(204, 204, 0);
+}
+.link {
+  width: 85%;
+  text-align: left;
+  margin: auto;
+  background-color: white;
+  outline-style: solid;
+  padding: 15px;
+}
+.citation {
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+}
+a:link {
+  color: rgb(182, 159, 255);
+}
+a:visited {
+  color: rgb(233, 101, 0);
+}
+a:hover {
+  color: rgb(0, 233, 62);
+  font-style: italic;
+}
