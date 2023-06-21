@@ -1,0 +1,107 @@
+body {
+
+}
+a, u {
+  text-decoration: none;
+  color: white;
+}
+/* navigation and social bar*/
+header {
+  position: fixed;
+  top: 0px;
+  left:0px;
+  margin-top: 0;
+  width: 100%;
+  background-color: rgba(120, 144, 156, 255);
+  padding: 1em;
+  text-align: center;
+  height: 4em;
+}
+.logo {
+  float: left;
+  margin-left: 2em;
+}
+.link:hover {
+  background-color: rgba(89, 89, 89, 255);
+}
+.dropdown {
+  display: inline-block;
+  font-family: arial;
+  font-size: 20px;
+  padding: .5em;
+}
+.dropdown-content {
+  display: none;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  right: 1em;
+  background-color: #374145;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  text-align: center;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-item {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding: 1.5em;
+  min-width: 6em;
+}
+.dropdown-item:hover {
+  background-color: rgb(214, 184, 137);
+}
+.socialbar {
+  width: 2.5%;
+  height: 60em;
+  background-color: rgba(120, 144, 156, 255);
+  position: fixed;
+  left: 0px;
+}
+
+/* Individual page styles, starting with home page */
+.main-container {
+  margin-left: 1em;
+  margin-top: 2em;
+  padding: 1em;
+  line-height: 1.4em;
+  font-family: Arial;
+  font-size: 30px;
+}
+.banner {
+  float: right;
+  text-align: right;
+  margin-top: 3.5em;
+}
+.title {
+  margin-bottom: 5em;
+}
+.text {
+  float: left;
+}
+
+/* Gallery Styles */
+.gallery {
+  margin-top: 6.5em;
+  text-align: center;
+  padding: .5em;
+}
+.img-left {
+  float: left;
+}
+.img-right {
+  float: right;
+}
+/* About page */
+.about {
+  margin-top: 6.5em;
+  margin-left: 3.5em;
+}
+p {
+  column-count: 2;
+}
