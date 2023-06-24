@@ -1,0 +1,178 @@
+body {
+  background-image: url("spider.jpg");
+  background-size: 99.9%;
+  background-attachment: fixed;
+  background-color: #394032;
+}
+a, u {
+  text-decoration: none;
+  color: white;
+}
+/* navigation and social bar*/
+header {
+  position: fixed;
+  top: 0px;
+  left:0px;
+  margin-top: 0;
+  width: 100%;
+  background-color: none;
+  padding: 1em;
+  text-align: center;
+  height: 4em;
+  backdrop-filter: blur(20px);
+}
+.links {
+  font-family: 'OstrichSans-Medium', arial;
+  font-size: 30px;
+}
+.logo {
+  float: left;
+  margin-left: 2em;
+  position: absolute;
+  left: 1em;
+  clip-path: circle();
+}
+.link:hover {
+  background-color: #B9314F;
+}
+.dropdown {
+  display: inline-block;
+  font-family: arial;
+  font-size: 20px;
+  padding: .5em;
+}
+.dropdown-content {
+  display: none;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  right: .3em;
+  background-color: none;
+  backdrop-filter: blur(20px);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  text-align: center;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-item {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding: 1.5em;
+  min-width: 6em;
+}
+.dropdown-item:hover {
+  background-color: #B9314F;
+}
+.socialbar {
+  width: 2.5%;
+  height: 60em;
+  background-color: none;
+  position: fixed;
+  left: 0px;
+}
+
+/* Individual page styles, starting with home page */
+.main-container {
+  margin-left: 1em;
+  margin-top: 2em;
+  padding: 1em;
+  line-height: 1.4em;
+  font-family: Arial;
+  font-size: 30px;
+}
+.banner {
+  float: right;
+  text-align: right;
+  margin-top: 3.5em;
+}
+.title {
+  color: white;
+  margin-bottom: 30em;
+  font-family: 'OstrichSans-Medium', arial;
+  letter-spacing: 2px;
+}
+.text {
+  float: left;
+  backdrop-filter: blur(20px);
+  color: white;
+  font-family: 'CooperHewitt-Light', Helvetica;
+  padding: 1em 1em 3em 1em;
+  column-count: 2;
+  text-align: left;
+  margin-bottom: 5em;
+}
+
+/* Gallery Styles */
+.gallery {
+  margin-top: 6.5em;
+  text-align: center;
+  padding: .5em;
+  color: white;
+  font-family: 'CooperHewitt-Light', Helvetica;
+}
+.img-left {
+  float: left;
+  background: linear-gradient(90deg, #545863 70%, transparent);
+  text-align: left;
+  margin-bottom: 1em;
+  padding-right: 40em;
+  backdrop-filter: blur(20px);
+}
+.img-left>img {
+  float: left;
+}
+.img-left>p {
+  clear: right;
+  text-align: right;
+  color: white;
+  font-family: 'CooperHewitt-Light', Helvetica;
+}
+.img-right {
+  float: right;
+  text-align: right;
+  margin-bottom: 1em;
+  padding-left: 40em;
+  background: linear-gradient(270deg, #545863 70%, transparent);
+  backdrop-filter: blur(20px);
+}
+.img-right>img {
+  float: right;
+}
+.img-right>p {
+  clear: left;
+  text-align: left;
+  color: white;
+  font-family: 'CooperHewitt-Light', Helvetica;
+}
+/* About page */
+.about {
+  margin-top: 6.5em;
+  margin-left: 3.5em;
+  color: white;
+  font-family: 'CooperHewitt-Light', Helvetica;
+  background-color: #545863;
+  padding-bottom: 23.2em;
+}
+.about>img {
+  width: 50%;
+  float: right;
+}
+.about>p {
+  clear: left;
+  column-count: 1;
+}
+/* Contact page */
+.contact {
+  color: white;
+  font-family: 'CooperHewitt-Light', Helvetica;
+  margin-top: 6.5em;
+  background-color: #545863;
+  padding-left: 5em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
